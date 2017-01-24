@@ -1,5 +1,5 @@
 applications:
-- name: boot-app-derek
+- name: boot-app-ravi
   buildpack: java_buildpack
   memory: 512M
   instances: 1
