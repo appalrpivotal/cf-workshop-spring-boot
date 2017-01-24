@@ -3,7 +3,7 @@ resources:
 - name: git-repo
   type: git
   source:
-    uri: https://github.com/dbeauregard/cf-workshop-spring-boot
+    uri: https://github.com/appalrpivotal/cf-workshop-spring-boot
     branch: master
     
 - name: artifacts
@@ -87,4 +87,4 @@ jobs:
     params:
       - manifest: git-repo/manifest.yml
       - path: artifacts/boot-app-*.jar
-      - current_app_name: boot-app-derek-prod
+      - current_app_name: boot-app-RAVI-prod
